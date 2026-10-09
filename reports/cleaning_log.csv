@@ -1,0 +1,7 @@
+rule,rows_removed,rows_remaining
+"Remove missing, non-numeric, or non-positive areas",0,3479
+"Exclude area values above 1,000 as implausible/malformed",5,3474
+"Remove missing, non-numeric, or non-positive room counts",10,3464
+"Remove missing, non-numeric, or non-positive prices",0,3464
+Exclude reviewed suspicious low-price record (original index 136),1,3463
+Remove exact duplicate rows,207,3256
